@@ -18,12 +18,14 @@ com o Design feito por Amanda Cylleno.
 - CSS
 
 ## Contatos
-- E-mail: ricardo.gferreia97@hotmail.com </br>
-<a href="https://www.linkedin.com/in/ricardo-gon/">
-<img width="50" src="https://cdn-icons-png.flaticon.com/512/3983/3983888.png" alt="PRs Welcome"> </a>
 
 <a href="https://www.linkedin.com/in/ricardo-gon/">
-<img width="50" src="https://cdn-icons-png.flaticon.com/512/3983/3983877.png" alt="PRs Welcome"> </a>
+<img width="50" src="https://img.icons8.com/office/344/linkedin.png" alt="Ícone Linkedin"> </a>
 
-<a href="https://www.linkedin.com/in/ricardo-gon/">
-<img width="50" src="https://cdn-icons-png.flaticon.com/512/3983/3983858.png" alt="PRs Welcome"> </a>
+<a href="https://contate.me/ricardo-gon">
+<img width="50" src="https://img.icons8.com/office/344/whatsapp--v1.png" alt="Ícone Whatsapp"> </a>
+
+<a href="https://www.instagram.com/ricardinferreira/">
+<img width="50" src="https://img.icons8.com/office/344/instagram-new.png" alt="Ícone Instagram"> </a>
+
+E-mail: ricardo.gferreia97@hotmail.com </br>
