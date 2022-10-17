@@ -3,55 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 :root {
   font-size: 62.5%;
 }
-
 @font-face {
   font-family: ocra;
-  src: url('./assets/ocrabybt-regular-1-opentype_bigfontsite.com.otf')
+  src: url(./assets/ocrabybt-regular-1-opentype_bigfontsite.com.otf)
     format('opentype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: bt;
   src: url('./assets/HVD\ Fonts\ -\ BrandonText-Regular.otf') format('opentype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
-
 img.avatar {
   width: 15rem;
   height: 15rem;
 
-  margin-top: 6rem;
-  margin-bottom: 2.4rem;
-}
 
+}
 header h1 {
   font-family: ocra;
-  color: white;
+  color: #fff;
   font-size: 3.2rem;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 3.75rem;
   margin-bottom: 0.8rem;
 }
-
 header p {
   font-family: bt;
-  color: white;
+  color: #fff;
   font-size: 1.8rem;
   letter-spacing: 0.5rem;
-
   margin-bottom: 4.8rem;
-}
-
-#wrapper div {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 body {
@@ -59,33 +46,26 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-
 }
-
 li,
 a {
   list-style: none;
   text-decoration: none;
 }
-
 li:hover .icon {
   background: #6962ee;
 }
-
 li:hover .text {
   background: #a09cf7;
 }
-
 div.link {
   display: flex;
   margin-bottom: 2rem;
 }
-
 img.img {
   max-width: 3rem;
   margin: 0;
 }
-
 div.icon {
   height: 5rem;
   width: 5rem;
@@ -93,13 +73,10 @@ div.icon {
   background: #a09cf7;
   align-items: center;
   justify-content: center;
-
   box-shadow: 0.4rem 0.9rem 1.5rem 0.1rem rgba(0, 0, 0, 0.3);
-
-  border-radius: 1.4rem 0px 0px 1.4rem;
+  border-radius: 1.4rem 0 0 1.4rem;
   transition: background 500ms;
 }
-
 div.text {
   max-height: 5rem;
   width: 25rem;
@@ -107,20 +84,15 @@ div.text {
   background: #6962ee;
   align-items: center;
   justify-content: center;
-
   font-size: 1.8rem;
   font-family: bt;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  color: white;
-
+  color: #fff;
   box-shadow: 1rem 1rem 1.5rem rgba(0, 0, 0, 0.3);
-
-  border-radius: 0px 1.4rem 1.4rem 0px;
+  border-radius: 0 1.4rem 1.4rem 0;
   transition: background 500ms;
 }
-
-
 footer {
   font-family: bt;
   margin-top: 4rem;
@@ -128,146 +100,109 @@ footer {
   font-size: 1.5rem;
   opacity: 0.6;
 }
-
 footer a {
   text-decoration: none;
-  color: white;
+  color: #fff;
   transition: opacity 600ms;
 }
-
-/*=== RESPONSIVE =================================*/
 @media (min-width: 1024px) {
-
-/* -------- */
-
-/* ========HEADER======== */
-header {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-img.avatar {
-  margin-top: 8rem;
-  width: 23rem;
-  height: 23rem;
-}
-
-header h1 {
-  font-family: ocra;
-  color: white;
-  font-weight: normal;
-  font-size: 3.3rem;
-
-  margin-bottom: 0.8rem;
-}
-
-header p {
-  font-size: 2rem;
-  font-family: bt;
-  color: white;
-  letter-spacing: 0.5rem;
-  margin-bottom: 4.1rem;
-}
-
-/* ========LINKS======== */
-
-#wrapper div {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-
-}
-
-img {
-  width: 100%;
-  margin-top: 6rem;
-  margin-bottom: 2.4rem;
-}
-
-
-
-li,
-a {
-  list-style: none;
-  text-decoration: none;
-}
-
-li:hover .icon {
-  background: #6962ee;
-}
-
-li:hover .text {
-  background: #a09cf7;
-}
-
-div.link {
-  display: flex;
-  margin-bottom: 4.3rem;
-}
-
-img.img {
-  max-width: 5rem;
-  margin: 0;
-}
-
-div.icon {
-  height: 7.5rem;
-  width: 10rem;
-  display: flex;
-  background: #a09cf7;
-  align-items: center;
-  justify-content: center;
-
-  box-shadow: 0.4rem 0.9rem 1.5rem 0.1rem rgba(0, 0, 0, 0.3);
-
-  border-radius: 1.4rem 0px 0px 1.4rem;
-  transition: background 500ms;
-}
-
-div.text {
-  max-height: 7.5rem;
-  width: 35rem;
-  display: flex;
-  background: #6962ee;
-  align-items: center;
-  justify-content: center;
-
-  font-size: 2.2rem;
-  font-family: bt;
-  text-transform: uppercase;
-  letter-spacing: 0.5rem;
-  color: white;
-
-  box-shadow: 1rem 1rem 1.5rem rgba(0, 0, 0, 0.3);
-
-  border-radius: 0px 1.4rem 1.4rem 0px;
-  transition: background 500ms;
-}
-
-/* ========FOOTER======== */
-
-footer {
-  font-family: bt;
-  margin-top: 4rem;
-  margin-bottom: auto;
-  font-size: 1.5rem;
-  opacity: 0.6;
-}
-
-footer a {
-  text-decoration: none;
-  color: white;
-  transition: opacity 600ms;
-}
-
-footer:hover {
-  opacity: 1;
-}
-
+  header {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  img.avatar {
+    margin-top: 8rem;
+    width: 23rem;
+    height: 23rem;
+  }
+  header h1 {
+    font-family: ocra;
+    color: #fff;
+    font-weight: 400;
+    font-size: 3.3rem;
+    margin-bottom: 0.8rem;
+  }
+  header p {
+    font-size: 2rem;
+    font-family: bt;
+    color: #fff;
+    letter-spacing: 0.5rem;
+    margin-bottom: 4.1rem;
+  }
+  #wrapper div {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 2.4rem;
+  }
+  li,
+  a {
+    list-style: none;
+    text-decoration: none;
+  }
+  li:hover .icon {
+    background: #6962ee;
+  }
+  li:hover .text {
+    background: #a09cf7;
+  }
+  div.link {
+    display: flex;
+    margin-bottom: 4.3rem;
+  }
+  img.img {
+    max-width: 5rem;
+    margin: 0;
+  }
+  div.icon {
+    height: 7.5rem;
+    width: 10rem;
+    display: flex;
+    background: #a09cf7;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0.4rem 0.9rem 1.5rem 0.1rem rgba(0, 0, 0, 0.3);
+    border-radius: 1.4rem 0 0 1.4rem;
+    transition: background 500ms;
+  }
+  div.text {
+    max-height: 7.5rem;
+    width: 35rem;
+    display: flex;
+    background: #6962ee;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-family: bt;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #fff;
+    box-shadow: 1rem 1rem 1.5rem rgba(0, 0, 0, 0.3);
+    border-radius: 0 1.4rem 1.4rem 0;
+    transition: background 500ms;
+  }
+  footer {
+    font-family: bt;
+    margin-top: 4rem;
+    margin-bottom: auto;
+    font-size: 1.5rem;
+    opacity: 0.6;
+  }
+  footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: opacity 600ms;
+  }
+  footer:hover {
+    opacity: 1;
+  }
 }
